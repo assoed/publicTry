@@ -1,0 +1,12 @@
+<?php
+function suck($word){
+    echo "$word<br>";
+};
+function math($x, $y){
+   $res = $x*$y*$x*$y;
+   echo "$res<br>";
+}
+math(6.135,1890.21);
+math(63,189);
+math(6234532, 1.12);
+?>  
